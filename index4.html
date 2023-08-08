@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Vinos Azteca</title>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <link rel="stylesheet" href="estilos/estilo2.css">
+</head>
+<body>
+    <!-- SECCION INICIO -->
+    <section id="inicio">
+        <!-- ENCABEZADO --> 
+        <header>
+            <div class="contenido-header">
+                <div class="logo">
+                    <img src="img/muesta_24julio.png" class="img" alt="">
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li class="menu">
+                            <a href="#inicio" onclick="selecciona()">
+                                <i class="fa-solid fa-house"></i>
+                                <span>Inicio</span>
+                                
+                            </a>
+                        </li>
+                        <li class="menu">
+                            <a href="#vinos" onclick="selecciona()">
+                                <i class="fa-solid fa-store"></i>
+                                <span>Empresa</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#platillos" onclick="selecciona()">
+                                <i class="fa-solid fa-calendar-days"></i>
+                                <span>Objetivos</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#blog" onclick="selecciona()">
+                                <i class="fa-solid fa-apple-whole"></i>
+                                <span>Lemas</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#contacto" onclick="selecciona()">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>contacto</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+    
+                    <div class="social">
+                        <a href="tel:+722-406-6256">
+                            <i class="fa-solid fa-phone"></i>
+                            722-406-6256
+                        </a>
+                        <a href="https://www.instagram.com/vinedosazteca/" target="_blank">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=DGa3XYAuYEI" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                    <div class="nav-responsive" id="bar" onclick="mostrarOcultar()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+        </header>
+
+        <!-- CARRUSEL -->
+        <div class="carrusel">
+            <div class="gallery js-flickity" data-flickity-options='{"wrapAround":true,
+            "pageDots":false, "autoPlay":true}'>
+
+            <div class="gallery-cell">
+                    <img src="img/fondo1.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/fondo2.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/fondo3.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/fondo4.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/fondo5.jpg" alt="">
+                </div>
+                <div class="gallery-cell">
+                    <img src="img/fondo5.jpg" alt="">
+                </div>
+            </div>
+            <div class="info">
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION DE BOTELLAS DE VINO-->
+    <section id="vinos">
+        <h2>Empresa</h2>
+        <div class="fila">
+            <div class="item">
+                <div class="icono">
+                </div>
+                <div class="info">
+                    <h3>Misión</h3>
+                    <br>
+                    <p> «Porque somos somos 
+                        soñadores y nos gusta 
+                        emprender, porque entendemos el valor del 
+                        esfuerzo y la dedicación. 
+                        <br>
+                        <br>
+                        Porque es un place compartir nuestras pasiones 
+                        como el vino y el caballo, en el marco de un 
+                        México lleno de historia 
+                        y valores que procura 
+                        hombres y mujeres de 
+                        bien y desea lo mejor 
+                        para las generaciones 
+                        venideras» </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                </div>
+                <div class="info">
+                    <h3>Visión</h3>
+                    <br>
+                    <p>"Ser reconocidos como el 
+                        productor de vinos más 
+                        prestigioso y admirado a 
+                        nivel mundial, cautivando 
+                        a los amantes del vino con 
+                        nuestra pasión por la excelencia, la innovación y la tradición vinícola. 
+                        <br>
+                        <br>
+                        Aspira mos a ser líderes en la industria, ofreciendo una 
+                        gama diversa y excepcional de vinos que reflejen la riqueza de nuestras viñas y 
+                        la dedicación inquebrantable de nuestro equipo. 
+                        Nuestra visión es trascender fronteras, conquistar 
+                        paladares y ser el referente 
+                        indiscutible de calidad y 
+                        elegancia en cada botella 
+                        que lleva nuestro nombre."</p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="icono">
+                </div>
+                <div class="info">
+                    <h3>Filosofía</h3>
+                    <br>
+                    <p>
+                        Excelencia en el servicio al cliente: Valoramos a nuestros clientes y nos esforzamos por brindarles una experiencia excepcional en cada interacción. 
+                        <br>
+                        <br>
+                        Escuchamos sus comentarios y necesidades para mejorar constantemente y ofrecer productos y servicios que superen sus expectativas</p>
+                </div>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION DE PLATILLOS-->
+    <section id="platillos">
+        <h2>Objetivos</h2>
+
+        <div class="fila">
+            <div class="item">
+                <img src="img/ob1.jpg" alt="">
+                <p>Producción de uvas de alta calidad: El objetivo principal de un viñedo es cultivar uvas de alta calidad que sean adecuadas para la elaboración de vinos excepcionales. Esto implica cuidar los viñedos con prácticas agrícolas adecuadas, 
+                    como la elección de variedades de uva adecuadas, la poda, el riego y la protección contra enfermedades y plagas.
+                    </p>
+            </div>
+            <div class="item">
+                <img src="img/ob2.jpg" alt="">
+                <p> Sostenibilidad y respeto al medio ambiente: Un objetivo importante es gestionar 
+                    el viñedo de manera sostenible, minimizando el impacto ambiental y conservando los recursos naturales. Esto puede incluir prácticas de agricultura ecológica o 
+                    biodinámica, la utilización de energías renovables y la preservación de la biodiversidad en el área circundante.</p>
+            </div>
+            <div class="item">
+                <img src="img/ob3.jpg" alt="">
+                <p> Mejora de la productividad: Los viñedos buscan mejorar la productividad y la 
+                    eficiencia en la producción de uvas, optimizando los rendimientos sin comprometer la calidad. Esto implica utilizar técnicas modernas y herramientas para 
+                    gestionar el viñedo de manera eficiente.</p>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- SECCION BLOG-->
+    <section id="blog">
+        <h2>Lemas</h2>
+        <!-- carrusel de los items del blog-->
+        <div class="galeria-blog js-flickity" data-flickity-options='{"wrapAround":true,
+            "pageDots":true}'>
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/eno1.png" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Valores</h3>
+                        <p>Calidad: Priorizar la calidad en cada aspecto de la producción de vinos, desde el cultivo de las uvas hasta la elaboración del producto final, buscando ofrecer a los clientes una experiencia excepcional.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/eno2.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Lema</h3>
+                        <p>"El sabor ancestral de nuestros viñedos Azteca, un deleite para los sentidos."</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="gallery-cell">
+                <div class="item">
+                    <div class="foto">
+                        <img src="img/eno3.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>Recomendaciones</h3>
+                        <p>Viñedos Azteca, donde la pasión por el vino se encuentra con la tradición ancestral. Nuestras recomendaciones buscan brindarles una experiencia única y memorable en cada visita</p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+        <a href="index.html" target="_blank"> <button>Página principal</button></a>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto">
+        <div class="fila">
+            <div class="col">
+                <h1>Vinos Azteca</h1>
+            </div>
+            <div class="col">
+                <h3>Menú</h3>
+                <a href="#">Inicio</a>
+                <a href="#">Vinos</a> 
+                <a href="#">Platillos</a> 
+                <a href="#">Blog</a>
+                <a href="#">contacto</a> 
+            </div>
+            <div class="col">
+                <h3>Organizadores</h3>
+                <a href="#">marcos</a>
+            </div>
+            <div class="col">
+                <h3>Redes Sociales</h3>
+                <div class="media">
+                    <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/vinedosazteca/" target="_blank">Instagram</a>    
+                </div>
+                <div class="media">
+                    <i class="fa-brands fa-youtube"></i>
+                    <a href="https://www.youtube.com/watch?v=omnQGlgJTMc&t=6s" target="_blank">Youtube</a>   
+                </div>
+            </div>
+            <div class="col">
+                <h3>Correo</h3>
+                <input type="text" placeholder="Tu correo">
+                <input type="submit" class="enviar">
+            </div>
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="script.js"></script> 
+ </body>
+</html>
